@@ -11,30 +11,40 @@
 </head>
 <body>
   <header class="header">
-    <nav class ="header__menu">
-      <ul class ="header__links-list">
-        <li class ="header__links-list-item_no-bullit"
-            ><a class="header__link">главная</a></li>
-        <li class ="header__links-list-item">
-        <a class ="header__link_active" 
-          href="#0">посмотреть лоты</a></li>
-        <li class ="header__links-list-item">
-        <a href="#0">об аукционе</a></li>
+    <nav class="header__menu">
+      <ul class="header__links-list">
+        <li class="header__links-list-item_no-bullit">
+        <a class="header__link">главная</a></li>
+        <li class="header__links-list-item">
+        <a class="header__link_active" href="#0">посмотреть лоты</a></li>
+        <li class="header__links-list-item">
+        <a class="header__link_active" href="#0">об аукционе</a></li>
       </ul>
     </nav>
-    <img src="./images/logo-black.svg" 
-         alt="Картинка в шапке сайта: Оно тебе надо">
-  <address class="address header__address">
-    <a href="tel:+9 (999) 555-55-55">+9 (999) 555-55-55<br></a>
-    <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-    <p>наб. Принсенграхт 263-<br> 265, Амстердам</p>
-  </address>
-  </header>
+    <a class="header__logo">
+      <img src="./images/logo-black.svg" 
+           alt="Логотип сайта: Оно тебе надо"
+           class="header__logo-image">
+      </a>  
+      <address class="address">
+        <a href="tel:+9 999-555-55-55">+9 999-555-55-55<br></a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-<br> 265, Амстердам</p>
+      </address>
+    </header>
   <main>
-    <article class ="cover"></article>
-    <article class ="lots"></article>
-    <article class ="about"></article>
+    <article class="cover">
+      <div class="overlay">
+        <h1 class="cover__title">
+          <span class="aligned-text">О <span class="over__title letter-spacing-extended">НО</span></span>
+          <span class="aligned-text aligned-text_center"><span>Т Е <span class="over__title letter-spacing-extended">БЕ</span></span>
+          <span class="aligned-text aligned-text_right "><span class="over__title letter-spacing-extended">Н</span>А Д<span class="no-letter-spacing">О</span></span>
+        </h1>
+      </div>
+    </article>
+    <article class="lots"></article>
+    <article class="about"></article>
   </main>
-  <footer class ="footer"></footer>
+  <footer></footer>
 </body>
 </html>
