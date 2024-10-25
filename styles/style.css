@@ -200,7 +200,6 @@ body {
     height: 563px;
     display: flex;
     position: relative;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -239,6 +238,7 @@ body {
     font-size: 20px;
     line-height: 24px;
     text-decoration: underline;
+    padding: 30px 820px 0 40px;
   }
 
   .about {
@@ -313,7 +313,7 @@ body {
 
   .footer {
     width: 1000px;
-    padding: 180px 26px 88px 26px;
+    padding: 0 26px 88px 26px;
     display: flex;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
