@@ -14,18 +14,18 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-          <a class ="header__link">главная</a></li>
+          <a class ="header__link_active">главная</a></li>
           <li class="header__links-list-item">
-          <a class="header__link_active" href="#0">посмотреть лоты</a></li>
+          <a class="header__link_active" href="#lots">посмотреть лоты</a></li>
           <li class="header__links-list-item">
-          <a class="header__link_active" href="#0">об аукционе</a></li>
+          <a class="header__link_active" href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <a class="header__logo">
         <img src="../images/logo-black.svg" 
         alt="Логотип сайта: Оно тебе надо"
         class="header__logo-image">
-      <address class="address header__address">
+      <address class="address">
         <a class="header__link" href="tel:+9 999 555 5555">+9 999 555 5555<br></a>
         <a class ="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class ="header__address">наб. Принсенграхт 263-<br>265, Амстердам</p>
@@ -44,7 +44,7 @@
             <button class="bet-button">Сделать ставку</button>
           </div>
         </article>
-      <main class="lots">
+      <main class="lots" id="lots">
         <h2 class="lots__heading">ЛОТЫ</h2>
       <ul class="lots__card-list">
         <li class="lots__card-list-item">
@@ -76,18 +76,37 @@
           </ul>
           <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </main>
-      <main class="about">
+      <main class="about" id="about">
         <section class="about__column">
           <div class="about__logo">
           <img src="./images/logo-white.svg" 
            alt="Логотип в нижней части сайта"
-           class="about__logo-image"
-          ></div>
+           class="about__logo-image">
+          </div>
           <h3 class ="about__title">Об аукционе</h3>
           <p class="about__text_first">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
           <p class="about__text_second">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
         </section>
       </main>
+      <footer class="footer">
+        <address class="address_footer">
+          <a class="header__link" href="tel:+9 999 555 5555">+9 999 555 5555<br></a>
+          <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class=>наб. Принсенграхт 263-<br>265, Амстердам</p>
+        </address>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-list-item footer__menu-link_active"><a>главная</a></li>
+              <li class="footer__menu-list-item footer__menu-link"><a href="#lots">посмотреть лоты</a></li>
+              <li class="footer__menu-list-item footer__menu-link"><a href="#about">об аукционе</a></li>
+            </ul>
+          </nav>
+          <ul class="footer__social-list">
+            <li class="footer__social-list-item"><a href="https://www.youtube.com/"><img src="./images/yt.svg" alt="Иконка YouTube" class="footer__social-icon"></a></li>
+            <li class="footer__social-list-item"><a href="https://vk.ru/"><img src="./images/vk.svg" alt="Иконка социальной сети Вконтакте" class="footer__social-icon"></a></li>
+            <li class="footer__social-list-item"><a href="https://ru.pinterest.com/"><img src="./images/pinterest.svg" alt="Иконка фотохостинга Printerest" class="footer__social-icon"></a></li>
+          </ul>
+      </footer>
     </main>
   </body>
 </html>
