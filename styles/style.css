@@ -32,6 +32,17 @@ body {
     list-style: none;
   }
 
+  .header__logo {
+    width: 148px;
+    height: 105px;
+  }
+
+  .header__logo-image {
+    width: 129px;
+    height: 104px;
+    
+  }
+
   .address {
     padding: 5px 26px 2px 184px;
   }
@@ -154,10 +165,6 @@ body {
     column-gap: 25px;
   }
   
-  .card {
-    height: 100%;
-  }
-  
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
@@ -195,7 +202,6 @@ body {
     text-decoration: none;
     height: 100%;
   }
-
 
   .card {
     height: 100%;
