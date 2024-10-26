@@ -282,7 +282,7 @@
 
   .about__column {
     display: grid;
-    grid-template-columns: 290px 650px;
+    grid-template-columns: 317px 650px;
     grid-template-rows: auto auto;
     row-gap: 10px;
   }
@@ -336,9 +336,11 @@
     text-align: start;
     padding-bottom: 15px;
   }
+  
   .address_footer { 
     padding-top: 15px;
   }
+
   .footer {
     padding: 5px 50px 88px 30px;
     display: flex;
