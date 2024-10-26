@@ -331,7 +331,6 @@
    align-items: center;
    margin-left: 40px;
    padding-bottom: 15px;
-
   }
 
   .footer__menu-link {
@@ -343,7 +342,6 @@
   }
 
   .footer__social-list {
-    padding: ;
     list-style: none;
     display: flex;
     justify-content: space-between;
