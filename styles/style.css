@@ -56,7 +56,7 @@
   .cover {
     background-image: url(../images/cover.jpg);
     width: 100%;
-    height: 757px;
+    min-height: 757px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -143,7 +143,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid currentColor;
     width: 256px;
     height: 51px;
     z-index: 4;
@@ -151,7 +151,7 @@
   }
   
   .lots {
-    margin: 179px 24px 146px 24px;
+    margin: 179px 24px 150px 24px;
   }
   
   .lots__heading {
@@ -199,8 +199,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 334px;
-    height: 563px;
+    min-width: 334px;
+    min-height: 563px;
     padding-left: 40px;
     padding-right: 40px;
     position: relative;
@@ -213,7 +213,7 @@
   .card-link {
     display: block;
     text-decoration: none;
-    height: 100%;
+    min-height: 100%;
   }
 
   .card {
@@ -226,8 +226,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 334px;
-    height: 563px;
+    min-width: 334px;
+    min-height: 563px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -274,15 +274,16 @@
   }
 
   .about {
-    margin: 146px 24px 180px 24px;
-    height: 595px;
+    margin: 146px 24px 160px 24px;
+    min-height: 595px;
     padding-left: 47px;
+    padding-top: 25px;
   }
 
   .about__column {
     display: grid;
-    grid-template-columns: 240px 800px;
-    grid-template-rows: 300px auto;
+    grid-template-columns: 290px 800px;
+    grid-template-rows: auto auto; 
   }
 
   .about__logo {
@@ -291,12 +292,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 240px;
-    height: 240px;
+    min-width: 240px;
+    min-height: 240px;
     grid-column: 1;
     justify-self: center;
     align-self: center;
     display: grid;
+    margin-right: 110px;
+    margin-left: 15px;
   }
 
   .about__logo-image {
@@ -313,16 +316,16 @@
     line-height: 47px;
     text-transform: uppercase;
     grid-column: 2 / 3;
-    width: 690px;
-    height: 120px;
-    display: block;
-    align-self: center;
-    justify-self: center;
-    padding-top: 38px;
-    padding-left: 15px;
+    min-width: 690px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+
   }
   
-  .about__text_question {
+  .about__text {
     grid-column: 2;
     grid-row: 2;
     color: #000000;
@@ -330,27 +333,18 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    width: 760px;
-    padding: 15px;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
     text-align: start;
-    padding-left: 72px;
-    padding-bottom: 1px;
+    justify-content: start;
   }
-
-  .about__text_answer {
-    grid-column: 2;
-    grid-row: 3;
-    color: #000000;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    width: 750px;
-    padding-left: 72px;
+  .address_footer {
+    padding-top: 15px;
   }
-
   .footer {
-    padding: 0 26px 88px 26px;
+    padding: 5px 50px 88px 30px;
     display: flex;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
@@ -358,16 +352,18 @@
     font-weight: 400;
     line-height: 21px;
     align-items: center;
-    padding-left: 50px;
-    padding-bottom: 88px;
+    margin-left: 20px
   }
 
   .footer__menu-list {
    list-style: none;
    flex-direction: column;
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
+   margin-left: 40px;
+   padding-bottom: 15px;
+
   }
 
   .footer__menu-link {
@@ -384,9 +380,9 @@
     display: flex;
     justify-content: space-between;
     width: 240px;
-    height: 48px;
+    min-height: 48px;
+    padding-bottom: 20px;
   }
-
 
   .footer__social-icon {
     width: 48px;
