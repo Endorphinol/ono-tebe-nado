@@ -291,13 +291,13 @@
     font-size: 40px;
     line-height: 47px;
     text-transform: uppercase;
-    grid-column: 2/3; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-top: 20px;
     padding-bottom: 5px;
     min-width: 690px;
+    grid-column: 2/3;
   }
   
   .about__text {
