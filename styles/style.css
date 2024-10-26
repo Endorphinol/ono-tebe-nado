@@ -98,8 +98,9 @@
   .aligned-text_right {
     display: flex;
     justify-content: end;
-    padding-top: 20px; 
-  }
+    padding-top: 20px;
+  } 
+
   
   .letter-spacing-extended {
     letter-spacing: 0.6em;
@@ -283,7 +284,7 @@
     align-self: center;
     justify-self: center;
   }
-  
+
   .about__title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
