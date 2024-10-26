@@ -291,7 +291,7 @@
     font-size: 40px;
     line-height: 47px;
     text-transform: uppercase;
-    grid-column: 2 / 3; 
+    grid-column: 2/3; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
