@@ -219,6 +219,9 @@
   .card {
     flex-grow: 1;
     padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .card_type_picture {
