@@ -14,9 +14,10 @@
   list-style: circle;
   display: flex;
   column-gap: 32px;
-  padding: 37px 36px 39px 27px;
+  padding: 33px 35px 30px 23px;
   justify-content: center;
   align-items: center;
+  line-height: 2;
 }
 
 .header__link_active {
@@ -157,7 +158,7 @@
   line-height: 47px;
   color: black;
   text-transform: uppercase;
-  padding: 0 890px 28px 40px;
+  padding: 0 0 28px 40px;
 }
 
 .lots__card-list-item {
@@ -235,7 +236,7 @@
   font-size: 20px;
   line-height: 24px;
   text-decoration: underline;
-  padding: 30px 820px 10px 40px;
+  padding: 30px 0 10px 40px;
 }
 
 .about {
