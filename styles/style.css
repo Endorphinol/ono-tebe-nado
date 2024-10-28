@@ -141,7 +141,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid currentColor;
+  border: 1px solid;
   width: 256px;
   height: 51px;
   z-index: 4;
@@ -301,7 +301,7 @@
 }
 
 .footer {
-  padding: 13px 50px 88px 30px;
+  padding: 10px 50px 88px 32px;
   display: flex;
   justify-content: space-between;
   font-family: "Raleway", sans-serif;
@@ -318,7 +318,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-left: 40px;
-  padding-bottom: 37px;
+  padding-bottom: 38px;
   line-height: 1.15;
 }
 
