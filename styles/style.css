@@ -243,7 +243,7 @@
 .about {
   margin: 146px 24px 160px 24px;
   padding-left: 47px;
-  padding-top: 23px;
+  padding-top: 20px;
 }
 
 .about__column {
@@ -297,7 +297,7 @@
   line-height: 24px;
   min-width: 688px;
   text-align: start;
-  padding-bottom: 11px;
+  padding-bottom: 13px;
 }
 
 .footer {
