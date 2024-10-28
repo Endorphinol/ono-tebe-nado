@@ -42,7 +42,7 @@
 .address {
   font-style: normal;
   font-family: "Raleway", sans-serif;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .header__address {
@@ -115,7 +115,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 125px 10px 20px 40px;
+  padding: 123px 10px 20px 40px;
 }
 
 .cover__description-text {
